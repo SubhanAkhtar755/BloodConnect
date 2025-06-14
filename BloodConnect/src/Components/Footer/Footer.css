@@ -1,0 +1,80 @@
+.footer {
+  background-color: #ffffff; /* Indigo Blue */
+  color: #000; /* White */
+  padding: 1.5rem 0;
+  margin-top: auto;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 0.875rem;
+}
+
+.footer-container {
+  max-width: 96rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .footer-container {
+    flex-direction: row;
+  }
+}
+
+.footer-text {
+  color: #767879;
+  text-align: center;
+}
+
+.footer-text .brand {
+  color: #0866ff;
+  font-weight: 600;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 1rem;
+  color: #767879;
+  font-size: 0.875rem;
+}
+
+.footer-nav a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-nav a:hover {
+  color: #0866ff;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 1rem;
+  color: rgba(255 255 255 / 0.7);
+  font-size: 1.25rem;
+  filter: drop-shadow(0 0 6px #0866ff);
+}
+
+.footer-icons a {
+  transition: color 0.2s ease;
+}
+
+.footer-icons a:hover {
+  color: #0866ff;
+}
+
+.footer-credit {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.75rem;
+  color: #767879;
+}
+
+.footer-credit .author {
+  color: #0866ff;
+  font-weight: 500;
+}

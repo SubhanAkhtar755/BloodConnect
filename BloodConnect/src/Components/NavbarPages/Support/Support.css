@@ -1,0 +1,78 @@
+/* styles.css or Support.module.css */
+
+.support-container {
+  max-width: 64rem; /* 4xl ~ 1024px */
+  margin: 0 auto;
+  padding: 4rem 1.5rem; /* py-16 px-6 */
+  font-family: system-ui, sans-serif;
+}
+
+.support-title {
+  font-size: 2.5rem; /* text-4xl */
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #222673;
+}
+
+.section-title {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 0.5rem;
+}
+
+.text-gray-700 {
+  color: #767879;
+  line-height: 1.6;
+}
+
+.text-link {
+  color: #0866ff;
+  text-decoration: none;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.faq-item {
+  border-bottom: 1px solid #0866ff; /* gray-300 */
+  padding: 1rem 0;
+}
+
+.faq-question-button {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  text-align: left;
+  font-size: 1.125rem; /* text-lg */
+  font-weight: 600;
+  color: #101240;
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.faq-icon {
+  color: #0866ff;
+  font-weight: 700;
+}
+
+.faq-answer {
+  margin-top: 0.5rem;
+  color: #767879;
+  white-space: pre-line;
+}
+
+.response-time {
+  color: #767879;
+}
